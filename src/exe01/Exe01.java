@@ -23,35 +23,29 @@ public class Exe01 {
 		  		switch(planetas){
 					case '1':
 					
-						res = Resultado.Mercúrio(pesoTer,0);
-						System.out.print("No Planeta Mercurio Seu Peso é: " + res);
+						System.out.print("No Planeta Mercurio Seu Peso é: " + Resultado.Mercúrio(pesoTer,0));
 						break;
 					
 					case '2':
 					
-						res = Resultado.Venus(pesoTer,0);
-						System.out.print("No Planeta Mercurio Seu Peso é: " + res);
+						System.out.print("No Planeta Mercurio Seu Peso é: " + Resultado.Venus(pesoTer,0));
 						break;
 					
 					case '3':
 
-						res = Resultado.Marte(pesoTer,0);
-						System.out.print("No Planeta Marte Seu Peso é: " + res);
+						System.out.print("No Planeta Marte Seu Peso é: " + Resultado.Marte(pesoTer,0));
 						break;
 					
 					case '4':
-						res = Resultado.Júpiter(pesoTer,0);
-						System.out.print("No Planeta Júpiter Seu Peso é: " + res);
+						System.out.print("No Planeta Júpiter Seu Peso é: " + Resultado.Júpiter(pesoTer,0));
 						break;
 					
 					case '5':
-						res = Resultado.Saturno(pesoTer,0);
-						System.out.print("No Planete Saturno Seu Peso é: " + res);
+						System.out.print("No Planete Saturno Seu Peso é: " + Resultado.Saturno(pesoTer,0));
 						break;
 			
 					case '6':
-						res = Resultado.Urano(pesoTer,0);
-						System.out.print("No Planeta Urano Seu Peso é: " + res);
+						System.out.print("No Planeta Urano Seu Peso é: " + Resultado.Urano(pesoTer,0));
 						break;
 					
 					default:
