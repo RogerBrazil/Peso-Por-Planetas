@@ -29,33 +29,33 @@ public class Exe01 {
 					
 					case '2':
 					
-							res = Resultado.Venus(pesoTer,0);
-							System.out.print("No Planeta Mercurio Seu Peso é: " + res);
-							break;
+						res = Resultado.Venus(pesoTer,0);
+						System.out.print("No Planeta Mercurio Seu Peso é: " + res);
+						break;
 					
 					case '3':
 
-							res = Resultado.Marte(pesoTer,0);
-							System.out.print("No Planeta Marte Seu Peso é: " + res);
-							break;
+						res = Resultado.Marte(pesoTer,0);
+						System.out.print("No Planeta Marte Seu Peso é: " + res);
+						break;
 					
 					case '4':
-							res = Resultado.Júpiter(pesoTer,0);
-							System.out.print("No Planeta Júpiter Seu Peso é: " + res);
-							break;
+						res = Resultado.Júpiter(pesoTer,0);
+						System.out.print("No Planeta Júpiter Seu Peso é: " + res);
+						break;
 					
 					case '5':
-							res = Resultado.Saturno(pesoTer,0);
-							System.out.print("No Planete Saturno Seu Peso é: " + res);
-							break;
-				
+						res = Resultado.Saturno(pesoTer,0);
+						System.out.print("No Planete Saturno Seu Peso é: " + res);
+						break;
+			
 					case '6':
-							res = Resultado.Urano(pesoTer,0);
-							System.out.print("No Planeta Urano Seu Peso é: " + res);
-							break;
+						res = Resultado.Urano(pesoTer,0);
+						System.out.print("No Planeta Urano Seu Peso é: " + res);
+						break;
 					
 					default:
-							System.out.print("\nOpção Invalida!\t");
+						System.out.print("\nOpção Invalida!\t");
 					
 			}
 			System.out.print("\nContinuar? s/n: ");
